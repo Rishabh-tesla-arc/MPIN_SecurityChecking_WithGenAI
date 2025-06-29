@@ -1,4 +1,3 @@
-# cspell:ignore MPIN, groq, mixtral, dotenv
 from datetime import datetime
 from dotenv import load_dotenv
 import random
@@ -123,14 +122,18 @@ def run_tests():
         {"mpin": "5683", "common_pin": common_pins_4, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},
         {"mpin": "1212", "common_pin": common_pins_4, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},
         {"mpin": "9001", "common_pin": common_pins_4, "demographics": {"dob_self": "1990-01-02", "dob_spouse": "1990-09-14", "anniversary": "2020-01-02"}},
-
+        {"mpin": "4321", "common_pin": common_pins_4, "demographics": {"dob_self": "1995-04-21", "dob_spouse": None, "anniversary": None}}, 
+        {"mpin": "8888", "common_pin": common_pins_4, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},           
+        {"mpin": "021298", "common_pin": common_pins_6, "demographics": {"dob_self": "1998-12-02", "dob_spouse": None, "anniversary": None}}, 
+        {"mpin": "030395", "common_pin": common_pins_6, "demographics": {"dob_self": "1995-03-03", "dob_spouse": "1995-03-03", "anniversary": "1995-03-03"}},  
+        {"mpin": "539021", "common_pin": common_pins_6, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},        
         {"mpin": "020199", "common_pin": common_pins_6, "demographics": {"dob_self": "1999-01-02", "dob_spouse": "1999-01-02", "anniversary": "1999-01-02"}},
         {"mpin": "121212", "common_pin": common_pins_6, "demographics": {"dob_self": "2012-12-12", "dob_spouse": None, "anniversary": None}},
         {"mpin": "123456", "common_pin": common_pins_6, "demographics": {"dob_self": "1998-01-02", "dob_spouse": None, "anniversary": "2020-01-02"}},
         {"mpin": "194503", "common_pin": common_pins_6, "demographics": {"dob_self": "1998-01-02", "dob_spouse": "1998-01-02", "anniversary": "2020-01-02"}},
         {"mpin": "123456", "common_pin": common_pins_6, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},
         {"mpin": "121212", "common_pin": common_pins_6, "demographics": {"dob_self": None, "dob_spouse": None, "anniversary": None}},
-        {"mpin": "123456", "common_pin": common_pins_6, "demographics": {"dob_self": "1998-01-02", "dob_spouse": None, "anniversary": "2020-01-02"}},
+        {"mpin": "123456", "common_pin": common_pins_6, "demographics": {"dob_self": "2000-01-02", "dob_spouse": None, "anniversary": "2020-01-02"}},
         {"mpin": "194503", "common_pin": common_pins_6, "demographics": {"dob_self": "1988-01-02", "dob_spouse": "1998-01-02", "anniversary": "2020-01-02"}},
         {"mpin": "123456", "common_pin": common_pins_6, "demographics": {"dob_self": "1998-01-02", "dob_spouse": "1990-01-02", "anniversary": "2020-01-02"}},
         {"mpin": "194503", "common_pin": common_pins_6, "demographics": {"dob_self": "1990-01-02", "dob_spouse": "2000-01-02", "anniversary": "2020-01-02"}},
