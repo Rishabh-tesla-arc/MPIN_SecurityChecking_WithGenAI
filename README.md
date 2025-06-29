@@ -150,12 +150,12 @@ python genAISolution.py
 ## File Structure
 
 ```
-MPIN_checking/
+MPIN_SecurityChecking_WithGenAI/
 ├── app.py                 # Streamlit web interface
 ├── genAISolution.py       # Core MPIN analysis functions
-├── requirements.txt      # Python dependencies
-├── README.md            # This file
-└── .env                 # Environment variables (create this and use your own API KEY)
+├── requirements.txt       # Python dependencies
+├── README.md              # This file
+└── .env                   # Environment variables (create this and use your own API KEY)
 ```
 
 
@@ -179,4 +179,10 @@ GROQ_API_KEY=your_groq_api_key_here
 - **No Data Storage**: Personal information is not stored
 - **Optional AI**: AI explanations require API key but are optional
 - **Date Privacy**: Dates are only used for pattern matching, not stored
+
+
+### User Interface View
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/a0785de7-0c26-4918-a87e-b5047827bb98" />
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/3d70daa7-c827-410a-b5e6-a43a5bcef923" />
+
 
