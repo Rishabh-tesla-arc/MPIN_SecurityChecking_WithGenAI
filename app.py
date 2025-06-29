@@ -1,4 +1,3 @@
-#cspell:ignore groq, dotenv, streamlit, mpin
 import streamlit as st
 from datetime import datetime
 import random
